@@ -69,7 +69,7 @@ section{
 }
   
 footer { 
-    background-color: #3E3E3E;
+    background-color: #4d4d4d;
     color: white;
     font-size: 1em;
     font-style: italic;
@@ -87,7 +87,7 @@ footer img{
 }
   
 .button {
-    background-color: #2798da;
+    background-color: #1f96db;
     color: white;
     padding: 14px 28px;
     text-align: center;
@@ -95,12 +95,12 @@ footer img{
     font-size: 20px;
     cursor: pointer;
     width: 24.7%;
-    border: 2px solid #2798da;
+    border: 2px solid #1f96db;
     box-shadow: 0px 0px 3px #797979;
 }
 .button:hover {
-    background-color: #1e71a1;
-    font-size: 18px;
+    background-color: #0f7ebe;
+    font-size: 19px;
     border: none;
     color: white;
 }
