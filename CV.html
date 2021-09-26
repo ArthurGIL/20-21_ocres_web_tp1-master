@@ -11,10 +11,10 @@
 </header>
 
 <nav>
-    <a href="CV.html" title="Formation"><button class="button" style="background: linear-gradient(to top right, #ff990050 0%, #ff000050 100%); color:black; font-size: 19px;"><div class="bText">Formation</div></button></a>
-    <a href="exp_pro.html" title="Experiences Professionnelles"><button class="button"><div class="bText">Experience Professionnelle</div></button></a>
-    <a href="competences.html" title="Competences"><button class="button"><div class="bText">Compétences</div></button></a>
-    <a href="interets.html" title="Centres d'interets"><button class="button"><div class="bText">Centres d'intérêts</div></button></a>
+    <a href="CV.html" title="Formation"><button class="button1" style="background: linear-gradient(43deg, #394fb9 80%, #863c81 100%); color:white; font-size: 19px; text-shadow: 1px 1px 0.5px #bbb; border: none;"><div class="bText">Formation</div></button></a>
+    <a href="exp_pro.html" title="Experiences Professionnelles"><button class="button2"><div class="bText">Experience Professionnelle</div></button></a>
+    <a href="competences.html" title="Competences"><button class="button3"><div class="bText">Compétences</div></button></a>
+    <a href="interets.html" title="Centres d'interets"><button class="button4"><div class="bText">Centres d'intérêts</div></button></a>
 </nav>
 
 <aside>
@@ -26,22 +26,54 @@
             <p><b>Téléphone :</b> 07 81 12 44 33</p>
             <p><b>Mail :</b> arthurlyon69@gmail.com</p>
         </article>
+        <hr>
+        <article class="formulaire">
+            <form method="post" action="mail.php">
+                <p>
+                    <ul>
+                        <b>Nom:</b><br>
+                        <input type="text" name="userId"><br>
+                        <br>
+                        <b>E-mail:</b><br>
+                        <input type="mail" name="email" required><br>
+                        <br>
+                        <b>Commentaire :</b><br>
+                        <TEXTAREA name="Comments" rows=8 cols=40 wrap required></TEXTAREA><br>
+                        <br>
+                        <input type="submit">
+                    </ul>
+                </p>
+            </form>
+        </article>
     </section>
 </aside>
 
 <main>
     <section>
         <h2><img src="formation.png" alt="Logo Formation"><article class="titre">Mon parcours :</article></h2>
-        <p>
-            <b>2020-2022 - École ECE Paris-Lyon</b><br>
-            <strong class="desc">Cycle Ingénieur à l'ECE Paris.<br>
-            <br>
-            <b>2018-2020 - École ECE Paris-Lyon</b><br>
-            <strong class="desc">Prépa intégrée en école d’Ingénieur.</strong><br>
-            <br>
-            <b>2018 - Lycée Chevreul</b><br>
-            <strong class="desc">Baccalauréat S (SVT) mention assez bien.</strong>
-        </p>
+        <article class="contenant">
+            <img src="ECE_Paris_Lyon.jpg" alt="Logo ECE">
+            <p>
+                <b>2020-2022 - École ECE Paris-Lyon</b><br>
+                <strong class="desc">Cycle Ingénieur à l'ECE Paris.<br>
+            </p>
+        </article>
+        <br>
+        <article class="contenant">
+            <img src="ECE_Paris_Lyon.jpg" alt="Logo ECE">
+            <p>
+                <b>2018-2020 - École ECE Paris-Lyon</b><br>
+                <strong class="desc">Prépa intégrée en école d’Ingénieur.</strong><br>
+            </p>
+        </article>
+        <br>
+        <article class="contenant">
+            <img src="logo_chevreul.png" alt="Logo Chevreul">
+            <p>
+                <b>2018 - Lycée Chevreul</b><br>
+                <strong class="desc">Baccalauréat S (SVT) mention assez bien.</strong>
+            </p>
+        </article>
     </section>
 </main>
 

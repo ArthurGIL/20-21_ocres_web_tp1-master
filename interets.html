@@ -11,10 +11,10 @@
 </header>
 
 <nav>
-    <a href="CV.html" title="Formation"><button class="button"><div class="bText">Formation</div></button></a>
-    <a href="exp_pro.html" title="Experiences Professionnelles"><button class="button"><div class="bText">Experience Professionnelle</div></button></a>
-    <a href="competences.html" title="Competences"><button class="button"><div class="bText">Compétences</div></button></a>
-    <a href="interets.html" title="Centres d'interets"><button class="button" style="background: linear-gradient(to top right, #ff990050 0%, #ff000050 100%); color:black; font-size: 19px;"><div class="bText">Centres d'intérêts</div></button></a>
+    <a href="CV.html" title="Formation"><button class="button1"><div class="bText">Formation</div></button></a>
+    <a href="exp_pro.html" title="Experiences Professionnelles"><button class="button2"><div class="bText">Experience Professionnelle</div></button></a>
+    <a href="competences.html" title="Competences"><button class="button3"><div class="bText">Compétences</div></button></a>
+    <a href="interets.html" title="Centres d'interets"><button class="button4" style="background: linear-gradient(43deg, #863c81 0%, #ffc355 50%); color:white; font-size: 19px; text-shadow: 1px 1px 0.5px #bbb; border: none;"><div class="bText">Centres d'intérêts</div></button></a>
 </nav>
 
 <aside>
@@ -26,6 +26,25 @@
             <p><b>Téléphone :</b> 07 81 12 44 33</p>
             <p><b>Mail :</b> arthurlyon69@gmail.com</p>
         </article>
+        <hr>
+        <article class="formulaire">
+            <form method="post" action="mail.php">
+                <p>
+                    <ul>
+                        <b>Nom:</b><br>
+                        <input type="text" name="userId"><br>
+                        <br>
+                        <b>E-mail:</b><br>
+                        <input type="mail" name="email" required><br>
+                        <br>
+                        <b>Commentaire :</b><br>
+                        <TEXTAREA name="Comments" rows=8 cols=40 wrap required></TEXTAREA><br>
+                        <br>
+                        <input type="submit">
+                    </ul>
+                </p>
+            </form>
+        </article>
     </section>
 </aside>
 
@@ -33,12 +52,19 @@
     <section>
         <h2><img src="formation.png" alt="Logo Formation"><article class="titre">Mon Centres d'intérêts :</article></h2>
         <p>
+            <b>Sports</b><br>
+            <strong class="desc">Ski (14 ans), Football (4 ans), Tennis (6 ans), Judo (7 ans)</strong><br>
+            <br>
             <b>Loisirs</b><br>
             <strong class="desc">Jeux Vidéos</strong><br>
-            <br>
-            <b>Sports</b><br>
-            <strong class="desc">Ski (14 ans), Football (4 ans), Tennis (6 ans), Judo (7 ans)</strong>
+            <i>Rocket League</i><br>
+            <i>Jeux solo, ...</i>
         </p>
+        <video controls>
+            <source src="yt5s.com-RLCS X Championships Trailer(720p).mp4" type="video/mp4">
+            <p>Votre navigateur ne prend pas en charge les vidéos HTML5.
+            Voici <a href="yt5s.com-RLCS X Championships Trailer(720p).mp4">un lien pour télécharger la vidéo</a></p>
+        </video>
     </section>
 </main>
 
